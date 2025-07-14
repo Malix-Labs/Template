@@ -13,11 +13,13 @@ It is accessible online at <https://github.com/Malix-Labs/Template#readme>
 
 ### [GitHub Labels](https://docs.github.com/issues/using-labels-and-milestones-to-track-work/managing-labels)
 
-- "Feature" (#00FF00)
-- "Enhancement" (#00FFFF)
-- "Fix" (#FF8000)
-- "Update" (#FFFF00)
-- "Deprecation" (#FF0000)
+| Name        | Description | Color   |
+| ----------- | ----------- | ------- |
+| Feature     |             | #00FF00 |
+| Enhancement |             | #00FFFF |
+| Fix         |             | #FF8000 |
+| Update      |             | #FFFF00 |
+| Deprecation |             | #FF0000 |
 
 ### [GitHub Milestones](https://docs.github.com/issues/using-labels-and-milestones-to-track-work/creating-and-editing-milestones-for-issues-and-pull-requests)
 
