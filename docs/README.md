@@ -31,6 +31,24 @@ It is accessible online at <https://github.com/Malix-Labs/Template#readme>
 
 The best starting [GitHub project template](https://docs.github.com/issues/planning-and-tracking-with-projects/managing-your-project/managing-project-templates-in-your-organization#copying-a-project-as-a-template) for any project scale
 
+### [GitHub Discussions Sections & Categories](https://docs.github.com/discussions/managing-discussions-for-your-community/managing-categories-for-discussions)
+
+#### Sections
+
+| Name        | Emoji | Categories |
+| ----------- | ----- | ---------- |
+| Development | 🧑‍💻     | None       |
+| Usage       | ✔️     | None       |
+
+#### Categories
+
+| Name          | Emoji | Description | Format                | Section |
+| ------------- | ----- | ----------- | --------------------- | ------- |
+| Announcements | 📣     |             | Announcement          | None    |
+| General       | 💬     |             | Open-ended discussion | None    |
+| Questions     | ❔     |             | Question / Answer     | None    |
+| Poll          | 🗳️     |             | Poll                  | None    |
+
 ### [GitHub Discussion Category Form](https://docs.github.com/discussions/managing-discussions-for-your-community/creating-discussion-category-forms)
 
 ### GitHub Actions
