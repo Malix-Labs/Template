@@ -6,18 +6,21 @@ It is accessible online at <https://github.com/Malix-Labs/Template#readme>
 ## Usage
 
 1. [ ] [Create a repository from this template](https://docs.github.com/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template#creating-a-repository-from-a-template)
-2. [ ] Copy all [this repository GitHub Settings](https://github.com/Malix-Labs/Template#github-settings)
-3. [ ] Copy all [this repository GitHub Labels](https://github.com/Malix-Labs/Template#github-labels)
+2. [ ] Search "`github.com/USERNAME/REPOSITORY`" and replace all "`USERNAME`" by the User/Organization name and "`REPOSITORY`" by the Repository name
+3. [ ] Copy all [this repository GitHub Settings](https://github.com/Malix-Labs/Template#github-settings)
+4. [ ] Copy all [this repository GitHub Labels](https://github.com/Malix-Labs/Template#github-labels)
 
 ## Features
 
 ### [GitHub Labels](https://docs.github.com/issues/using-labels-and-milestones-to-track-work/managing-labels)
 
-- "Feature" (#00FF00)
-- "Enhancement" (#00FFFF)
-- "Fix" (#FF8000)
-- "Update" (#FFFF00)
-- "Deprecation" (#FF0000)
+| Name        | Description | Color   |
+| ----------- | ----------- | ------- |
+| Feature     |             | #00FF00 |
+| Enhancement |             | #00FFFF |
+| Fix         |             | #FF8000 |
+| Update      |             | #FFFF00 |
+| Deprecation |             | #FF0000 |
 
 ### [GitHub Milestones](https://docs.github.com/issues/using-labels-and-milestones-to-track-work/creating-and-editing-milestones-for-issues-and-pull-requests)
 
@@ -28,6 +31,24 @@ It is accessible online at <https://github.com/Malix-Labs/Template#readme>
 ### [GitHub Project Template](https://docs.github.com/issues/planning-and-tracking-with-projects/managing-your-project/managing-project-templates-in-your-organization#copying-a-project-as-a-template)
 
 The best starting [GitHub project template](https://docs.github.com/issues/planning-and-tracking-with-projects/managing-your-project/managing-project-templates-in-your-organization#copying-a-project-as-a-template) for any project scale
+
+### [GitHub Discussions Sections & Categories](https://docs.github.com/discussions/managing-discussions-for-your-community/managing-categories-for-discussions)
+
+#### Sections
+
+| Name        | Emoji | Categories |
+| ----------- | ----- | ---------- |
+| Development | 🧑‍💻     | None       |
+| Usage       | ✔️     | None       |
+
+#### Categories
+
+| Name          | Emoji | Description | Format                | Section |
+| ------------- | ----- | ----------- | --------------------- | ------- |
+| Announcements | 📣     |             | Announcement          | None    |
+| General       | 💬     |             | Open-ended discussion | None    |
+| Questions     | ❔     |             | Question / Answer     | None    |
+| Poll          | 🗳️     |             | Poll                  | None    |
 
 ### [GitHub Discussion Category Form](https://docs.github.com/discussions/managing-discussions-for-your-community/creating-discussion-category-forms)
 
