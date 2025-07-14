@@ -7,7 +7,7 @@ It is accessible online at https://github.com/Malix-Labs/Template#readme
 
 1. [ ] [Create a repository from this template](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template#creating-a-repository-from-a-template)
 2. [ ] Copy all [this repository GitHub Settings](https://github.com/Malix-Labs/Template#github-settings)
-3. [ ] Copy all [this repository GitHub labels](https://github.com/Malix-Labs/Template#github-labels)
+3. [ ] Copy all [this repository GitHub Labels](https://github.com/Malix-Labs/Template#github-labels)
 
 ## Features
 
