@@ -7,7 +7,7 @@ It is accessible online at https://github.com/Malix-Labs/Template#readme
 
 1. [ ] [Create a repository from this template](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template#creating-a-repository-from-a-template)
 2. [ ] Copy all [this repository GitHub Settings](https://github.com/Malix-Labs/Template#github-settings)
-3. [ ] Copy all [this repository GitHub labels](https://github.com/Malix-Labs/Template#github-labels)
+3. [ ] Copy all [this repository GitHub Labels](https://github.com/Malix-Labs/Template#github-labels)
 
 ## Features
 
@@ -33,7 +33,7 @@ The best starting [GitHub project template](https://docs.github.com/en/issues/pl
 
 ### GitHub Actions
 
-Optimized for [Trunk-Based Development](https://trunkbaseddevelopment.com/)
+Optimized for [Trunk-Based Development](https://trunkbaseddevelopment.com/) / [GitHub Flow](https://docs.github.com/en/get-started/using-github/github-flow)
 
 - On issue create:
 	- [ ] [Create a branch named as the issue ID and link it to the created issue](https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-a-branch-for-an-issue)
