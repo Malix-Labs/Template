@@ -33,7 +33,7 @@ The best starting [GitHub project template](https://docs.github.com/en/issues/pl
 
 ### GitHub Actions
 
-Optimized for [Trunk-Based Development](https://trunkbaseddevelopment.com/)
+Optimized for [Trunk-Based Development](https://trunkbaseddevelopment.com/) / [GitHub Flow](https://docs.github.com/en/get-started/using-github/github-flow)
 
 - On issue create:
 	- [ ] [Create a branch named as the issue ID and link it to the created issue](https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-a-branch-for-an-issue)
