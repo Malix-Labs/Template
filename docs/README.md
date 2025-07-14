@@ -29,6 +29,10 @@ It is accessible online at <https://github.com/Malix-Labs/Template#readme>
 
 The best starting [GitHub project template](https://docs.github.com/issues/planning-and-tracking-with-projects/managing-your-project/managing-project-templates-in-your-organization#copying-a-project-as-a-template) for any project scale
 
+### [GitHub Discussions Categories](https://docs.github.com/discussions/managing-discussions-for-your-community/managing-categories-for-discussions)
+
+
+
 ### [GitHub Discussion Category Form](https://docs.github.com/discussions/managing-discussions-for-your-community/creating-discussion-category-forms)
 
 ### GitHub Actions
