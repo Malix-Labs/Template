@@ -39,6 +39,14 @@ Optimized for [Continuous Deployment (CD)](https://wikipedia.org/wiki/Continuous
 
 Each SemVer Tag pushed to the default branch is meant to be released
 
+### Deployments
+
+Optimized for [Continuous Deployment (CD)](https://wikipedia.org/wiki/Continuous_deployment)
+
+Each GitHub Release is meant to be deployed
+
+Deployments are meant to be executed from a pipeline (preferably GitHub Workflow) triggered by the GitHub Deployments
+
 ### [Rulesets](https://docs.github.com/repositories/configuring-branches-and-merges-in-your-repository/managing-rulesets)
 
 [Rulesets Files Directory](/.github/Rulesets) _([download](https://download-directory.github.io/?url=https://github.com/Malix-Labs/Template/tree/main/.github/Rulesets))_
