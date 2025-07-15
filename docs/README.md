@@ -12,6 +12,54 @@ It is accessible online at <https://github.com/Malix-Labs/Template#readme>
 
 ## Features
 
+### Branching
+
+Inspired by [Trunk-Based Development](https://trunkbaseddevelopment.com/) / [GitHub Flow](https://docs.github.com/get-started/using-github/github-flow)
+
+- **Default (`main`/`master`)**: the single source of truth, fully protected
+- **Issues (`issue/*`)**: short-lived branches for individual issues
+- **Archives (`archive/**/*`)**: branches for archival purposes
+- **Releases (`release/*`)**: branches for preparing a release
+	- **Releases' Issues (`release/*/issue/*`)**: issue work scoped under a specific release
+	- **Releases' Archives (`release/*/archive/**/*`)**: archival work scoped under a specific release
+
+### Tags
+
+Optimized for [Continuous Deployment (CD)](https://wikipedia.org/wiki/Continuous_deployment)
+
+Using [Semantic Versioning (SemVer)](https://semver.org/) _(current: [v2](https://semver.org/spec/v2.0.0.html))_
+
+Each push to the default branch should be tagged with a SemVer Tag
+
+Non-SemVer Tags are not encouraged (at least not for long-lived purposes) but allowed
+
+### GitHub Releases
+
+Optimized for [Continuous Deployment (CD)](https://wikipedia.org/wiki/Continuous_deployment)
+
+Each SemVer Tag pushed to the default branch is meant to be released
+
+### Deployments
+
+Optimized for [Continuous Deployment (CD)](https://wikipedia.org/wiki/Continuous_deployment)
+
+Each GitHub Release is meant to be deployed
+
+Deployments are meant to be executed from a pipeline (preferably GitHub Workflow) triggered by the GitHub Deployments
+
+### [Rulesets](https://docs.github.com/repositories/configuring-branches-and-merges-in-your-repository/managing-rulesets)
+
+[Rulesets Files Directory](/.github/Rulesets) _([download](https://download-directory.github.io/?url=https://github.com/Malix-Labs/Template/tree/main/.github/Rulesets))_
+
+| Type   | Name                               | Status | Bypass                                                                                                                                                                                                      | Targets                                                               | Rules                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           | File                                                                |
+| ------ | ---------------------------------- | ------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------- |
+| Branch | Archives                           | Active | <ul><li>Deploy keys - Always allow</li><li>Repository admin _(Role)_ - Always allow</li><li>Maintainer _(Role)_ - Always allow</li><li>Dependabot _(App • github)_ - Always allow</li></ul>                 | <ul><li>+ `archive/**/*`</li><li>+ `release/*/archive/**/*`</li></ul> | <ul><li>Restrict updates</li><li>Restrict deletions</li><li>Block force pushes</li></ul>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | [File](</.github/Rulesets/Archives.json>)                           |
+| Branch | Issues                             | Active | <ul><li>Deploy keys - Always allow</li><li>Repository admin _(Role)_ - Always allow</li><li>Maintainer _(Role)_ - Always allow</li><li>Dependabot _(App • github)_ - Always allow</li></ul>                 | <ul><li>+ `issue/*`</li><li>+ `release/*/issue/*`</li></ul>           | <ul><li>Restrict creations</li><li>Restrict deletions</li><li>Block force pushes</li></ul>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      | [File](</.github/Rulesets/Issues.json>)                             |
+| Branch | Production - Constructive          | Active | <ul><li>Deploy keys - Always allow</li><li>Repository admin _(Role)_ - Always allow</li><li>Maintainer _(Role)_ - Allow for pull requests only</li><li>Dependabot _(App • github)_ - Always allow</li></ul> | <ul><li>+ Default</li><li>+ `release/*`</li></ul>                     | <ul><li>Restrict creations</li><li>Require deployments to succeed</li><li>Require signed commits</li><li>Require a pull request before merging<ul><li>Required approvals: 0</li><li>Dismiss stale pull request approvals when new commits are pushed</li><li>Require review from Code Owners</li><li>Require approval of the most recent reviewable push</li><li>Require conversation resolution before merging</li><li>Request pull request review from Copilot</li><li>Allowed merge methods<ul><li>Merge</li><li>Squash</li><li>Rebase</li></ul></li></ul></li><li>Require code scanning results<ul><li>CodeQL - High or higher - Errors</li></ul></li></ul> | [File](</.github/Rulesets/Production - Constructive.json>)          |
+| Branch | Production - Destructive           | Active | <ul><li>Repository admin _(Role)_ - Always allow</li></ul>                                                                                                                                                  | <ul><li>+ Default</li><li>+ `release/*`</li></ul>                     | <ul><li>Restrict deletions</li><li>Block force pushes</li></ul>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 | [File](</.github/Rulesets/Production - Destructive.json>)           |
+| Tag    | Semantic Versioning - Constructive | Active | <ul><li>Deploy keys</li><li>Repository admin _(Role)_</li><li>Maintainer _(Role)_</li><li>Dependabot _(App • github)_</li></ul>                                                                             | <ul><li>+ `v[0-9]*`</li></ul>                                         | <ul><li>Restrict creations</li></ul>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            | [File](</.github/Rulesets/Semantic Versioning - Constructive.json>) |
+| Tag    | Semantic Versioning - Destructive  | Active | <ul><li>Repository admin _(Role)_</li></ul>                                                                                                                                                                 | <ul><li>+ `v[0-9]*`</li></ul>                                         | <ul><li>Restrict updates</li><li>Restrict deletions</li><li>Require deployments to succeed</li><li>Require signatures</li><li>Block force pushes</li></ul>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      | [File](</.github/Rulesets/Semantic Versioning - Destructive.json>)  |
+
 ### [GitHub Labels](https://docs.github.com/issues/using-labels-and-milestones-to-track-work/managing-labels)
 
 | Name        | Description | Color   |
