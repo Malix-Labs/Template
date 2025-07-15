@@ -33,6 +33,12 @@ Each push to the default branch should be tagged with a SemVer Tag
 
 Non-SemVer Tags are not encouraged (at least not for long-lived purposes) but allowed
 
+### GitHub Releases
+
+Optimized for [Continuous Deployment (CD)](https://wikipedia.org/wiki/Continuous_deployment)
+
+Each SemVer Tag pushed to the default branch is meant to be released
+
 ### [Rulesets](https://docs.github.com/repositories/configuring-branches-and-merges-in-your-repository/managing-rulesets)
 
 [Rulesets Files Directory](/.github/Rulesets) _([download](https://download-directory.github.io/?url=https://github.com/Malix-Labs/Template/tree/main/.github/Rulesets))_
