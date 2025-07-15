@@ -1,4 +1,4 @@
 # Support
 
-- [**Issues**](https://github.com/USERNAME/REPOSITORY/issues)
-- [**Discussions**](https://github.com/USERNAME/REPOSITORY/discussions)
+- [**Issues**](https://github.com/Malix-Labs/REPOSITORY/issues)
+- [**Discussions**](https://github.com/Malix-Labs/REPOSITORY/discussions)
