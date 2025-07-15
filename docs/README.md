@@ -23,7 +23,17 @@ Inspired by [Trunk-Based Development](https://trunkbaseddevelopment.com/) / [Git
 	- **Releases' Issues (`release/*/issue/*`)**: issue work scoped under a specific release
 	- **Releases' Archives (`release/*/archive/**/*`)**: archival work scoped under a specific release
 
-#### [Rulesets](https://docs.github.com/repositories/configuring-branches-and-merges-in-your-repository/managing-rulesets)
+### Tags
+
+Optimized for [Continuous Deployment (CD)](https://wikipedia.org/wiki/Continuous_deployment)
+
+Using [Semantic Versioning (SemVer)](https://semver.org/) _(current: [v2](https://semver.org/spec/v2.0.0.html))_
+
+Each push to the default branch should be tagged with a SemVer Tag
+
+Non-SemVer Tags are not encouraged (at least not for long-lived purposes) but allowed
+
+### [Rulesets](https://docs.github.com/repositories/configuring-branches-and-merges-in-your-repository/managing-rulesets)
 
 [Rulesets Files Directory](/.github/Rulesets) _([download](https://download-directory.github.io/?url=https://github.com/Malix-Labs/Template/tree/main/.github/Rulesets))_
 
