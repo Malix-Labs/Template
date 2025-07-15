@@ -14,6 +14,15 @@ It is accessible online at <https://github.com/Malix-Labs/Template#readme>
 
 ### Branching
 
+Inspired by [Trunk-Based Development](https://trunkbaseddevelopment.com/) / [GitHub Flow](https://docs.github.com/get-started/using-github/github-flow)
+
+- **Default (`main`/`master`)**: the single source of truth, fully protected
+- **Issues (`issue/*`)**: short-lived branches for individual issues
+- **Archives (`archive/**/*`)**: branches for archival purposes
+- **Releases (`release/*`)**: branches for preparing a release
+	- **Releases' Issues (`release/*/issue/*`)**: issue work scoped under a specific release
+	- **Releases' Archives (`release/*/archive/**/*`)**: archival work scoped under a specific release
+
 #### [Rulesets](https://docs.github.com/repositories/configuring-branches-and-merges-in-your-repository/managing-rulesets)
 
 [Rulesets Files Directory](/.github/Rulesets) _([download](https://download-directory.github.io/?url=https://github.com/Malix-Labs/Template/tree/main/.github/Rulesets))_
