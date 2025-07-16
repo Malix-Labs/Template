@@ -31,6 +31,8 @@ Using [Semantic Versioning (SemVer)](https://semver.org/) _(current: [v2](https:
 
 Each push to the default branch should be tagged with a SemVer Tag
 
+The included ["Continuous_Delivery" GitHub Workflow](/.github/workflows/Continuous_Delivery.yml) includes this behavior
+
 Non-SemVer Tags are not encouraged (at least not for long-lived purposes) but allowed
 
 ### GitHub Releases
@@ -38,6 +40,8 @@ Non-SemVer Tags are not encouraged (at least not for long-lived purposes) but al
 Optimized for [Continuous Deployment (CD)](https://wikipedia.org/wiki/Continuous_deployment)
 
 Each SemVer Tag pushed to the default branch is meant to be released
+
+The included ["Continuous_Delivery" GitHub Workflow](/.github/workflows/Continuous_Delivery.yml) includes this behavior
 
 ### Deployments
 
