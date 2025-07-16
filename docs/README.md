@@ -119,6 +119,12 @@ Fully featued with GitHub files
 
 GitHub Settings cannot be embeded in a [GitHub repository template](https://docs.github.com/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template) copied data, therefore, you have to [copy them manually](https://github.com/Malix-Labs/Template#github-settings)
 
-<!--
-1.
--->
+#### General
+
+##### Pull Requests
+
+- Allow merge commits
+  Default commit message: Pull request title
+- Allow squash merging
+  Default commit message: Default message
+- Allow rebase merging
