@@ -6,7 +6,7 @@ It is accessible online at <https://github.com/Malix-Labs/Template#readme>
 ## Usage
 
 1. [ ] [Create a repository from this template](https://docs.github.com/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template#creating-a-repository-from-a-template)
-2. [ ] Search "`github.com/USERNAME/REPOSITORY`" and replace all "`USERNAME`" by the User/Organization name and "`REPOSITORY`" by the Repository name
+2. [ ] Search "`github.com/<USERNAME>/<REPOSITORY>`" and replace all "`<USERNAME>`" by the User/Organization name and "`<REPOSITORY>`" by the Repository name
 3. [ ] Copy all [this repository GitHub Settings](https://github.com/Malix-Labs/Template#github-settings)
 4. [ ] Copy all [this repository GitHub Labels](https://github.com/Malix-Labs/Template#github-labels)
 

@@ -2,7 +2,7 @@
 # type: software
 # title: "<TITLE>"
 # abstract: "<DESCRIPTION>"
-# repository-code: "https://github.com/USERNAME/REPOSITORY"
+# repository-code: "https://github.com/<USERNAME>/<REPOSITORY>"
 # license: <LICENSE (IF ANY)>
 # authors:
 #   - <AUTHOR(S)>
