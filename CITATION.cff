@@ -1,0 +1,8 @@
+# cff-version: 1.2.0
+# type: software
+# title: "<TITLE>"
+# abstract: "<DESCRIPTION>"
+# repository-code: "https://github.com/USERNAME/REPOSITORY"
+# license: <LICENSE (IF ANY)>
+# authors:
+#   - <AUTHOR(S)>
