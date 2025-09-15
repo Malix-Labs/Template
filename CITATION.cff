@@ -3,6 +3,6 @@
 # title: "<TITLE>"
 # abstract: "<DESCRIPTION>"
 # repository-code: "https://github.com/USERNAME/REPOSITORY"
-# license: AGPL-3.0-or-later
+# license: <LICENSE (IF ANY)>
 # authors:
 #   - <AUTHOR(S)>
