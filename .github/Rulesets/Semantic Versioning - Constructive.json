@@ -16,14 +16,21 @@
   "rules": [
     {
       "type": "creation"
+    },
+    {
+      "type": "update"
+    },
+    {
+      "type": "required_signatures"
+    },
+    {
+      "type": "required_deployments",
+      "parameters": {
+        "required_deployment_environments": []
+      }
     }
   ],
   "bypass_actors": [
-    {
-      "actor_id": null,
-      "actor_type": "DeployKey",
-      "bypass_mode": "always"
-    },
     {
       "actor_id": 2,
       "actor_type": "RepositoryRole",

@@ -27,11 +27,6 @@
   ],
   "bypass_actors": [
     {
-      "actor_id": null,
-      "actor_type": "DeployKey",
-      "bypass_mode": "always"
-    },
-    {
       "actor_id": 2,
       "actor_type": "RepositoryRole",
       "bypass_mode": "always"

@@ -19,18 +19,6 @@
     },
     {
       "type": "non_fast_forward"
-    },
-    {
-      "type": "update"
-    },
-    {
-      "type": "required_signatures"
-    },
-    {
-      "type": "required_deployments",
-      "parameters": {
-        "required_deployment_environments": []
-      }
     }
   ],
   "bypass_actors": [
